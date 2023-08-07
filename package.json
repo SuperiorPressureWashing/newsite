@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "updatemain": "git add -A && echo 'Enter Commit Message:' && read message && git commit -m \"$message\" && git push origin main"
   },
   "dependencies": {
     "react": "^18.2.0",
