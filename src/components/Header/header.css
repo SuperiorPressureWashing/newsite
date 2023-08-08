@@ -1,0 +1,58 @@
+header{
+    position: relative;
+    min-height: 80vh;
+    background-image: url("/img/mainbg.jpeg");
+    background-size: 100%;
+    background-position: center center;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+header::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    z-index: -1;
+}
+
+header .phone-icon{
+    width: 5vw;
+    aspect-ratio: 1/1;
+    background-image: url("/img/phone_icon.svg");
+    background-size: 100%;
+    position: absolute;
+    left: 2%;
+    top:7%;
+}
+
+#headerContent{
+    margin-left: 20vw;
+}
+
+header h1{
+    font-size: 8vw;
+}
+header h3{
+    font-size: 4vw;
+    padding-left: 8vw;
+    color: var(--third-text-color);
+}
+
+#headerContent a{
+    margin-top: 5vh;
+    margin-left: 30vw;
+    display: inline-block;
+    padding: 0.5vw 2vw;
+    background-color: var(--main-color);
+    color: var(--secondary-text-color);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5vw;
+    box-shadow: 4px 4px 0 #434343;
+}

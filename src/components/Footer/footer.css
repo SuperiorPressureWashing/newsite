@@ -1,0 +1,57 @@
+#contactWrapper{
+    margin: 2vh 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--main-color);
+    color: var(--secondary-text-color);
+}
+
+#contactWrapper h2{
+    font-size: 1.9vw;
+    margin-right: 1vw;
+}
+#contactWrapper .links{
+    margin-left: 1vw;
+}
+
+#contactWrapper .links a{
+    display: inline-flex;
+    align-items: center;
+    width: 10vw;
+    border: 1px solid white;
+    padding: 0.2vh 1vh;
+    margin: 1vh;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#contactWrapper .links a img{
+    position: relative;
+    width: 21%;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+#contactWrapper .links a span{
+    margin-left: 1vw;
+    display: inline-block;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+#contactWrapper .links a:nth-child(1){
+    background-color: #E79F5D;
+}
+
+footer{
+    margin-top: 10vh;
+    font-size: 0.8vw;
+    padding: 1vh 0;
+    background-color: var(--main-color);
+    color: var(--secondary-text-color);
+    text-align: center;
+}

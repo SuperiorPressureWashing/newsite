@@ -1,0 +1,35 @@
+#mainNav{
+    width: 100%;
+    border-top: 4px solid var(--main-color);
+    min-height: 8vh;
+    position: relative;
+}
+
+#navContent .logo{
+    font-size: 1.3vw;
+    color: var(--secondary-text-color);
+    margin: 0 1vw;
+}
+
+#navContent .seperator{
+    display: inline-block;
+    height: 2vh;
+    width: 2px;
+    background-color: var(--secondary-text-color);
+}
+
+#navLinks a{
+    font-size: 1vw;
+    color: var(--secondary-text-color);
+    margin: 0 1vw;
+}
+
+#facebookIcon{
+    position: absolute;
+    right: 10vw;
+    height: 80%;
+    aspect-ratio: 1/1;
+}
+#facebookIcon img{
+    width: 100%;
+}

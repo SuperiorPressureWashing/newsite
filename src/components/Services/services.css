@@ -1,0 +1,41 @@
+#servicesTitle{
+    text-align: center;
+    margin-top: 10vh;
+    color: var(--secondary-text-color);
+    font-size: 4.5vw;
+}
+
+#servicesWrapper{
+    display: inline-flex;
+    width: 60%;
+    margin: 0 20%;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+.service{
+    display: inline-block;
+    width: 25%;
+    padding: 1vh 1%;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid #D6D6D6;
+    aspect-ratio: 1/1.2;
+    margin: 2vh 3%;
+    color: var(--secondary-text-color);
+}
+
+    .service .name{
+        display: inline-block;
+        position: relative;
+        background-color: var(--main-color);
+        font-size: 1.3vw;
+        width: 85%;
+        left: 1%;
+        text-align: center;
+        top: -3vh;
+        padding: 1vh 1vw;
+        font-weight: bold;
+    }
+    .service .desc{
+        font-size: 0.9vw;
+    }
