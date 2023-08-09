@@ -1,8 +1,10 @@
 #mainNav{
+    --border-size: 6px;
     width: 100%;
-    border-top: 4px solid var(--main-color);
+    border-top: var(--border-size) solid var(--secondary-color);
     min-height: 8vh;
     position: relative;
+    background-color: var(--main-background-color);
 }
 
 #navContent .logo{
@@ -32,4 +34,88 @@
 }
 #facebookIcon img{
     width: 100%;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    #mainNav{
+        --border-size: 5px;
+        min-height: 8vh;
+    }
+    
+    #navContent .logo{
+        font-size: 2.5vw;
+        margin: 0 2vw;
+    }
+    
+    #navContent .seperator{
+        height: 3vh;
+        width: 2px;
+    }
+    
+    #navLinks a{
+        font-size: 1.8vw;
+        margin: 0 1.5vw;
+    }
+    
+    #facebookIcon{
+        right: 5vw;
+        height: 90%;
+    }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    #mainNav{
+        --border-size: 4px;
+        min-height: 6vh;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 990;
+        box-shadow: 0px 4px 5px rgba(0,0,0,0.3);
+    }
+    
+    #navContent .logo{
+        font-size: 1.8vh;
+        margin: 0 2vw;
+    }
+    
+    #navContent .seperator{
+        display: none;
+    }
+    #navLinks{
+        position: absolute;
+        top:6vh;
+        left:0;
+        z-index: 998;
+        background-color: var(--secondary-color);
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: 0.3s clip-path ease-in-out;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+    }
+    #navLinks a{
+        font-size: 1.6vh;
+        margin: 0 1.5vw;
+        text-decoration: none;
+        display: block;
+        color: var(--third-text-color);
+        margin: 1.5vh 2vh;
+    }
+    
+    #facebookIcon{
+        right: 5vw;
+        height: 90%;
+    }
+    #hamburgerMenu{
+        position: absolute;
+        left: 5vw;
+        height: 6vh;
+        aspect-ratio: 1/1;
+        border: none;
+        background-color: transparent;
+        background-image: url('/img/hamburger_menu.svg');
+        background-size: 100%;
+    }
 }

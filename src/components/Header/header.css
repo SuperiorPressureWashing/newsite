@@ -2,8 +2,9 @@ header{
     position: relative;
     min-height: 80vh;
     background-image: url("/img/mainbg.jpeg");
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -37,11 +38,15 @@ header .phone-icon{
 
 header h1{
     font-size: 8vw;
+    transform: translateY(-30px);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 header h3{
+    transform: translateY(30px);
     font-size: 4vw;
     padding-left: 8vw;
     color: var(--third-text-color);
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
 }
 
 #headerContent a{
@@ -55,4 +60,76 @@ header h3{
     text-decoration: none;
     font-size: 1.5vw;
     box-shadow: 4px 4px 0 #434343;
+}
+#headerContent a:hover{
+    filter: brightness(90%);
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    header{
+        min-height: 80vh;
+    }
+    
+    header .phone-icon{
+        width: 10vw;
+        top:5%;
+    }
+    
+    #headerContent{
+        margin-left: 20vw;
+    }
+    
+    header h1{
+        font-size: 12vw;
+    }
+    header h3{
+        font-size: 6vw;
+        padding-left: 8vw;
+    }
+    
+    #headerContent a{
+        padding: 1.5vw 4vw;
+        font-size: 2vw;
+        box-shadow: 6px 6px 0 #434343;
+    }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    header{
+        min-height: 40vh;
+        margin-top: 6vh;
+    }
+    
+    header .phone-icon{
+        width: 6vh;
+        top:5%;
+    }
+    
+    #headerContent{
+        margin-left: 0;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header h1{
+        font-size: 6vh;
+        text-align: center;
+    }
+    header h3{
+        margin-top: 0.5vh;
+        font-size: 3.5vh;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    #headerContent a{
+        margin-left: 0;
+        padding: 1.5vw 4vw;
+        font-size: 1.5vh;
+        box-shadow: 4px 4px 0 #434343;
+        margin-top: 4vh;
+    }
 }

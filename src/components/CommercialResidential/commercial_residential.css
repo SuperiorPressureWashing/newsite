@@ -1,9 +1,10 @@
 #commercialResidentialWrapper{
-    margin-top: 10vh;
+    margin-top: 8vh;
+    padding: 6vh 0;
     display: flex;
-    
+    background-color: var(--secondary-color);
     justify-content: space-evenly;
-    color: var(--secondary-text-color);
+    color: var(--third-text-color);
 }
 #commercial, #residential{
     display: inline-block;
@@ -20,4 +21,52 @@
 }
 #commercial p, #residential p{
     font-size: 1.2vw;
+}
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    #commercialResidentialWrapper{
+        margin-top: 8vh;
+    }
+    #commercial, #residential{
+        width: 35%;
+    }
+    #commercial img, #residential img{
+        width: 20%;
+        margin-left: 40%;
+    }
+    #commercial h2, #residential h2{
+        text-align: center;
+        font-size: 4vw;
+    }
+    #commercial p, #residential p{
+        font-size: 1.5vw;
+        line-height: 1.8em;
+    }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    #commercialResidentialWrapper{
+        margin-top: 8vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #commercial, #residential{
+        width: 70%;
+    }
+    #residential{
+        margin-top: 5vh;
+    }
+    #commercial img, #residential img{
+        width: 30%;
+        margin-left: 35%;
+    }
+    #commercial h2, #residential h2{
+        font-size: 3.5vh;
+    }
+    #commercial p, #residential p{
+        font-size: 1.6vh;
+        line-height: 1.8em;
+    }
 }

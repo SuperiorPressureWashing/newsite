@@ -13,6 +13,7 @@
 
     --secondary-text-color: #000;
     --secondary-font: "Kanit", sans-serif;
+    --secondary-color: #005884;
 
     --third-text-color: #f2f2f2;
 }
@@ -27,4 +28,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* Desktop/tablet STYLES */
+@media only screen and (min-width: 768){
+    .mobile{
+        display: none;
+    }
+}
+/* TABLET STYLES */
+@media only screen and (min-width: 768px) and (max-width: 990px){
+
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 767px){
+    .no-mobile{
+        display: none;
+    }
 }

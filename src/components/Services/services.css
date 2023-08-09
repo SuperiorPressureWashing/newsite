@@ -8,17 +8,18 @@
 #servicesWrapper{
     display: inline-flex;
     width: 60%;
-    margin: 0 20%;
-    /* justify-content: space-evenly; */
+    margin: 1vw 20%;
     flex-wrap: wrap;
 }
 
 .service{
     display: inline-block;
     width: 25%;
+    opacity: 0;
+    transform: translateX(10px);
     padding: 1vh 1%;
     background-color: rgb(253, 253, 253);
-    border: 1px solid #D6D6D6;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
     aspect-ratio: 1/1.2;
     margin: 2vh 3%;
     color: var(--secondary-text-color);
@@ -30,12 +31,76 @@
         background-color: var(--main-color);
         font-size: 1.3vw;
         width: 85%;
-        left: 1%;
+        left: 3.5%;
         text-align: center;
         top: -3vh;
-        padding: 1vh 1vw;
+        padding: 1vh 4%;
         font-weight: bold;
+        border-radius: 4px;
     }
     .service .desc{
+        display: inline-block;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 1vw;
         font-size: 0.9vw;
     }
+
+    /* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    #servicesTitle{
+        margin-top: 8vh;
+        font-size: 5vw;
+    }
+    
+    #servicesWrapper{
+        width: 80%;
+        margin: 2vh 10%;
+    }
+    
+    .service{
+        width: 28%;
+        padding: 1vh 1%;
+        margin: 2vh 1.5%;
+    }
+    
+        .service .name{
+            font-size: 1.4vw;
+            left: 3.5%;
+            border-radius: 3px;
+        }
+        .service .desc{
+            font-size: 1.3vw;
+            line-height: 1.5em;
+        }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    #servicesTitle{
+        margin-top: 6vh;
+        font-size: 5vh;
+    }
+    
+    #servicesWrapper{
+        width: 90%;
+        margin: 1vh 5%;
+    }
+    
+    .service{
+        width: 38%;
+        padding: 0.5vh 1%;
+        margin: 2vh 4%;
+    }
+    
+        .service .name{
+            font-size: 1.3vh;
+            padding: 0.5vh 4%;
+            top: -2vh;
+            border-radius: 2px;
+        }
+        .service .desc{
+            font-size: 1.1vh;
+            line-height: 1.5em;
+        }
+}

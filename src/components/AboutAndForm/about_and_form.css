@@ -76,6 +76,9 @@
         margin-left: 5%;
         font-weight: bold;
     }
+    #estimateForm label span{
+        color: rgb(233, 56, 56);
+    }
     #estimateForm input, #estimateForm textarea{
         display: inline-block;
         margin: 0 0 3% 5%;
@@ -98,6 +101,9 @@
         border-radius: 5px;
         cursor: pointer;
     }
+    #estimateForm input[type="submit"]:hover{
+        filter:brightness(180%);
+    }
     
 #messageSuccess{
     display: inline-flex;
@@ -116,4 +122,129 @@
     display: inline-block;
     width: 25%;
     aspect-ratio: 1/1;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    #section1{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    #section1Text{
+        width: 39%;
+    }
+        #section1Text h2{
+            font-size: 4vw;
+        }
+        #section1Text h2.who-title{
+            margin-top: 15vh;
+        }
+
+        #section1Text p{
+            width: 80%;
+            font-size: 1.8vw;
+        }
+    
+    #trustedWrapper img{
+        margin: 1.5vw;
+        width: 8vw;
+    }
+    
+    .x-seperator{
+        margin: 0 5%;
+    }
+    
+    #estimateForm{
+        width: 35%;
+    }
+        #estimateForm h3{
+            font-size: 3vw;
+        }
+        #estimateForm label{
+            font-size: 1.5vw;
+        }
+        #estimateForm input, #estimateForm textarea{
+            height: 4vh;
+        }
+        #estimateForm textarea{
+            height: 8vh;
+        }
+        #estimateForm input[type="submit"]{
+            font-size: 1.6vw;
+        }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    #section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #section1Text{
+        width: 75%;
+    }
+        #section1Text h2{
+            font-size: 4vh;
+            display: block;
+            text-align: center;
+        }
+        #section1Text h2.who-title{
+            margin-top: 6vh;
+    
+        }
+        
+        #section1Text h2::after{
+            width: 100%;
+        }
+        #section1Text p{
+            width: 100%;
+            font-size: 1.8vh;
+            text-align: center;
+            padding-left: 0;
+        }
+    #trustedWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #trustedWrapper img{
+        margin: 1vh;
+        width: 8vh;
+    }
+    
+    .x-seperator{
+        display: none;
+    }
+    
+    #estimateForm{
+        margin-top: 3vh;
+        display: inline-block;
+        width: 70%;
+        padding: 1vh 0 1.5vh 0;
+    }
+        #estimateForm h3{
+            margin: 1vh 0;
+            font-size: 2.8vh;
+        }
+        #estimateForm label{
+            display: block;
+            font-size: 1.5vh;
+        }
+        #estimateForm input, #estimateForm textarea{
+            margin: 0 5% 3% 5%;
+            width: 90%;
+            height: 3.5vh;
+            font-size: 1.5vh;
+        }
+        #estimateForm textarea{
+            height: 8vh;
+        }
+        #estimateForm input[type="submit"]{
+            margin: 1vh 10% 3vh 10%;
+            font-size: 1.5vh;
+        }
 }

@@ -36,7 +36,6 @@ export default function Reviews() {
         autoPlay={true}
         autoPlaySpeed={6000}
         arrows={false}
-        // centerMode={true}
         >
             {reviewElems}
         </Carousel>

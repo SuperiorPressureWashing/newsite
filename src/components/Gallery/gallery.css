@@ -9,6 +9,10 @@
 #galleryWrapper h1{
     font-size: 4vw;
 }
+#galleryWrapper h1 span{
+    font-size: 130%;
+    color: var(--secondary-color)
+}
 
 .gallery-img{
     width: 100%;
@@ -17,4 +21,33 @@
     object-position: center;
     user-select: none;
     pointer-events: none;
+}
+.react-multiple-carousel__arrow{
+    z-index: 980 !important; 
+}
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    #galleryWrapper{
+        margin-top: 4vh;
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    #galleryWrapper h1{
+        font-size: 5vw;
+    }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    #galleryWrapper{
+        margin-top: 3vh;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    #galleryWrapper h1{
+        font-size: 4vh;
+        text-align: center;
+    }
 }

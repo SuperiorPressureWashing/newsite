@@ -32,15 +32,15 @@ useEffect(()=>{
 
         <form action="https://formsubmit.co/superiorpressurewashing111@gmail.com" id="estimateForm" method="POST">
 
-            <h3>Get a <em>Free</em> estimate!</h3>
+            <h3 id="formTitle">Get a <em>Free</em> estimate!</h3>
 
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name"><span>*</span> Name</label>
             <input required type="text" name="name" id="nameInput" />
 
-            <label htmlFor="number">Phone Number</label>
+            <label htmlFor="number"><span>*</span> Phone Number</label>
             <input required type="text" name="number" id="numberInput" />
 
-            <label htmlFor="email">Email Address</label>
+            <label htmlFor="email"><span>*</span> Email Address</label>
             <input required type="email" name="email" id="emailInput" />
 
             <label htmlFor="details">Details</label>
