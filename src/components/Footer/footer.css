@@ -26,6 +26,8 @@
     border-radius: 5px;
     color: white;
     text-decoration: none;
+    transition: 0.3s background-color;
+    background-color: var(--secondary-color);
 }
 
 #contactWrapper .links a img{
@@ -46,6 +48,13 @@
 #contactWrapper .links a:nth-child(1){
     background-color: #E79F5D;
     border: 1px solid transparent;
+}
+#contactWrapper .links a:nth-child(1):hover{
+    background-color: #ce8e52;
+}
+
+#contactWrapper .links a:nth-child(2):hover{
+    background-color: #0572a8;
 }
 
 footer{

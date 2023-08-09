@@ -1,6 +1,5 @@
 #section1{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 #section1Text{
@@ -72,8 +71,7 @@
     #estimateForm label{
         display: inline-block;
         font-size: 1vw;
-        margin-top: 3%;
-        margin-left: 5%;
+        margin: 3% 7.5% 1% 7.5%;
         font-weight: bold;
     }
     #estimateForm label span{
@@ -81,15 +79,17 @@
     }
     #estimateForm input, #estimateForm textarea{
         display: inline-block;
-        margin: 0 0 3% 5%;
+        padding: 1%;
+        margin: 0 7% 3% 7%;
         width: 85%;
         height: 5vh;
         border: none;
-        font-size: 1.2vw;
+        font-size: 1.1vw;
     }
     #estimateForm textarea{
         height: 10vh;
         resize: none;
+        font-size: 1vw;
     }
     #estimateForm input[type="submit"]{
         margin: 1vh 10% 3vh 10%;
@@ -235,7 +235,7 @@
             font-size: 1.5vh;
         }
         #estimateForm input, #estimateForm textarea{
-            margin: 0 5% 3% 5%;
+            margin: 0 4.5% 3% 4.5%;
             width: 90%;
             height: 3.5vh;
             font-size: 1.5vh;

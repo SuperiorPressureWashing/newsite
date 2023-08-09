@@ -21,7 +21,9 @@ useEffect(()=>{
         <div id="section1Text">
             <h2>Trusted By</h2>
             <div id="trustedWrapper">
+              <a href="https://acworth.org/" target="_blank">
                 <img src="/img/trusted_icons/acworth.jpg" alt="City of Acworth Logo" className="trusted-icon"/>
+              </a>
             </div>
             <h2 className="who-title">Who we are</h2>
             <p>We are a leader in the pressure washing industry. We are located in Adairsville Georgia. We believe in excellent work, and we are looking to establish new customer relationships through our work.

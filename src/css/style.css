@@ -4,6 +4,11 @@
     padding:0;
 }
 
+textarea:focus, input:focus{
+    outline: 6px solid #0096e0;
+    border-radius: 5px;
+}
+
 /* COLORS */
 :root{
     --main-background-color: #F6F6F6;
@@ -22,6 +27,7 @@ body{
     background-color: var(--main-background-color);
     font-family: var(--main-font);
     color: var(--main-text-color);
+    scroll-behavior: smooth;
 }
 
 .center{
