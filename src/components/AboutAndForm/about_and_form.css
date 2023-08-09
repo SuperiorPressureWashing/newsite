@@ -73,6 +73,7 @@
         font-size: 1vw;
         margin: 3% 7.5% 1% 7.5%;
         font-weight: bold;
+        user-select: none;
     }
     #estimateForm label span{
         color: rgb(233, 56, 56);
