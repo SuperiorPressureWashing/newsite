@@ -58,7 +58,7 @@ const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
           <div id="navLinks" ref={mobileNavRef}>
             <a href="#section1" className="nav-link">About</a>
             <a href="#galleryWrapper" className="nav-link">Gallery</a>
-            <a href="#estimateForm" className="nav-link">Contact</a>
+            <a href="#servicesTitle" className="nav-link">Services</a>
           </div>
 
         </div>

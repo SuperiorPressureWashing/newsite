@@ -1,16 +1,28 @@
 import Service from "./Service"
 import serviceData from "./serviceData"
-import { useEffect, useRef } from "react";
+import DetailsPane from "../DetailsPane/DetailsPane";
+import { useEffect, useRef, useState } from "react";
 import "./services.css"
 import gsap from "gsap";
 
-const serviceElems = serviceData.map((data, i)=>{
-    return <Service key={i} {...data}/>
-});
 
 export default function Services() {
 
+  const [currentServiceName, setCurrentServiceName] = useState("");
+  const [currentServiceDesc, setCurrentServiceDesc] = useState("");
+  const [isDetailsPaneOpen, setIsDetailsPaneOpen] = useState(false);
+
   const wrapperRef: any = useRef();
+
+  const serviceElems = serviceData.map((data, i)=>{
+    return (<Service
+            key={i}
+            {...data}
+            setCurrentServiceName={setCurrentServiceName}
+            setCurrentServiceDesc={setCurrentServiceDesc}
+            setIsDetailsPaneOpen={setIsDetailsPaneOpen}
+            />)
+});
 
   function animateElems(elems: Element[]){
     gsap.to(elems, {
@@ -52,6 +64,12 @@ export default function Services() {
     <div id="servicesWrapper" ref={wrapperRef}>
         {serviceElems}
     </div>
+    <DetailsPane
+    name={currentServiceName}
+    desc={currentServiceDesc}
+    setIsDetailsPaneOpen={setIsDetailsPaneOpen}
+    isDetailsPaneOpen={isDetailsPaneOpen}
+    />
    </>
   )
 }
