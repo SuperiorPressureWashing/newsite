@@ -6,6 +6,9 @@
     position: relative;
     background-color: var(--main-background-color);
 }
+#hamburgerMenu{
+    display: none;
+}
 
 #navContent .logo{
     font-size: 1.3vw;
@@ -109,6 +112,7 @@
         height: 90%;
     }
     #hamburgerMenu{
+        display: inline-block;
         position: absolute;
         left: 5vw;
         height: 6vh;
