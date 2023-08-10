@@ -4,7 +4,7 @@
     padding:0;
 }
 
-textarea:focus, input:focus{
+textarea:focus, input:not(input[type="submit"]):focus{
     outline: 6px solid #0096e0;
     border-radius: 5px;
 }
