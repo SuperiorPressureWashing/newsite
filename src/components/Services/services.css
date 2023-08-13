@@ -52,13 +52,14 @@
     }
    
     .service .name{
-        display: inline-block;
+        display: block;
+        text-align: left;
         position: relative;
         font-size: 1.25vw;
-        left: 0%;
+        left: 0;
+        top:0;
         margin:1vw 0 0 0;
         padding: 0 5%;
-        text-align: center;
         font-weight: bold;
         border-radius: 4px;
     }
