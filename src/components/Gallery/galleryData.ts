@@ -5,11 +5,11 @@ interface galleryType{
 
 const galleryData: galleryType[] = [
     {
-        src: "/img/gallery/img1.png",
+        src: "./img/gallery/img1.png",
         title: "Patio Decks"
     },
     {
-        src: "/img/gallery/img1.png",
+        src: "./img/gallery/img1.png",
         title: "Patio Decks"
     }
 ]

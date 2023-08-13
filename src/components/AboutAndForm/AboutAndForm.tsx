@@ -22,7 +22,7 @@ useEffect(()=>{
             <h2>Trusted By</h2>
             <div id="trustedWrapper">
               <a href="https://acworth.org/" target="_blank">
-                <img src="/img/trusted_icons/acworth.jpg" alt="City of Acworth Logo" className="trusted-icon"/>
+                <img src="./img/trusted_icons/acworth.jpg" alt="City of Acworth Logo" className="trusted-icon"/>
               </a>
             </div>
             <h2 className="who-title">Who we are</h2>

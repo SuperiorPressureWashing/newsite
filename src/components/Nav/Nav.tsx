@@ -64,7 +64,7 @@ const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
         </div>
 
         <a id="facebookIcon" target="_blank" href="https://www.facebook.com/people/Superior-Pressure-Washing-LLC/100087068977228/">
-          <img src="/img/facebook_icon.svg" alt="Facebook Icon" />
+          <img src="./img/facebook_icon.svg" alt="Facebook Icon" />
         </a>
     </nav>
   )
