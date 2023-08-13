@@ -37,12 +37,15 @@
         height: 100%;
         transition: 0.4s scale;
         object-fit: cover;
+        user-select: none;
     }
     .service div:has(img){
         overflow: hidden;
         height: 45%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        user-select: none;
+        pointer-events: none;
     }
     .service:hover img{
         scale: 120%;
