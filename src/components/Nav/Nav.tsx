@@ -51,6 +51,8 @@ const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
           className="mobile"
           ref={hamburgerMenuRef}
           ></button>
+
+          <div id="mainLogo"></div>
           
           <span className="logo">Superior Pressure Washing LLC</span>
           <div className="seperator no-mobile"></div>

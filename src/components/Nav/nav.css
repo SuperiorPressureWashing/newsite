@@ -6,6 +6,18 @@
     position: relative;
     background-color: var(--main-background-color);
 }
+
+#mainLogo{
+    height: 80%;
+    position: absolute;
+    left: 10vw;
+    aspect-ratio: 1/1;
+    background-image: url("/img/superiorpressurewashing-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #hamburgerMenu{
     display: none;
 }
@@ -77,6 +89,10 @@
         left:0;
         z-index: 990;
         box-shadow: 0px 4px 5px rgba(0,0,0,0.3);
+    }
+
+    #mainLogo{
+        display: none;
     }
     
     #navContent .logo{
