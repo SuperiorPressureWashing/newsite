@@ -46,7 +46,7 @@ export default function Services() {
           animObserver.unobserve(elem.target)
         }
       })
-      if(elemsToAnimate.length > 1){
+      if(elemsToAnimate.length > 0){
         animateElems(elemsToAnimate)
       }
     }, {threshold: 0.3});
