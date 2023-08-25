@@ -60,7 +60,7 @@
     width: 25%;
     background-color: var(--main-color);
     color: var(--secondary-text-color);
-    padding: 3vh 0 4vh 0;
+    padding: 3vh 1.5vw 4vh 1.5vw;
 }
     #estimateForm h3{
         text-align: center;

@@ -1,6 +1,7 @@
 import "./header.css"
 import gsap from "gsap"
 import { useEffect } from "react"
+import ReactPlayer from "react-player"
 
 
 
@@ -23,6 +24,20 @@ export default function Header() {
             <h3>Pressure Washing LLC</h3>
             <a href="#estimateForm">Request a <em>Free</em> estimate!</a>
         </div>
+        <ReactPlayer
+        muted={true}
+        url={"./vid/main-bg.mp4"}
+        playing={true}
+        loop={true}
+        style={{
+          position: "absolute",
+          left: 0,
+          top:0,
+          width: "100vw",
+        }}
+        width={"100%"}
+        height={"100%"}
+        />
     </header>
   )
 }

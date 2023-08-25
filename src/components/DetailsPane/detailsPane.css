@@ -37,6 +37,11 @@
     overflow: auto;
 }
 
+#detailsPane img{
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
 #detailsPaneClose{
     display: inline-block;
     position: absolute;
@@ -95,9 +100,11 @@
     #detailsPaneClose{   
         width: 13%;
     }
-    
+    #detailsPane img{
+        margin-top: 6vw;
+    }
     #detailsPaneName{
-        margin-top: 5vw;
+        margin-top: 2vw;
         font-size: 3.5vw;
         
     }
@@ -125,10 +132,12 @@
         top: 1%;
         right: 5%;
     }
-
+    #detailsPane img{
+        margin-top: 7vh;
+    }
     #detailsPaneName{
         font-size: 3vh;
-        margin-top: 10vh;
+        margin-top: 3vh;
         padding-right: 15%;
     }
     #detailsPaneDescription{

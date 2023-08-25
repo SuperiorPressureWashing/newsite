@@ -4,6 +4,7 @@ import "./detailsPane.css"
 interface detailsPaneProps{
   name: string
   desc: string
+  img: string
   isDetailsPaneOpen: boolean
   setIsDetailsPaneOpen: any
 }
@@ -17,6 +18,7 @@ export default function DetailsPane(props: detailsPaneProps) {
   const shaderRef: any = useRef()
 
   function openDetailsPane(){
+    document.querySelector("body")!.style.overflowY = "hidden";
     props.setIsDetailsPaneOpen(true);
       setWrapperStyles({
         visibility: "visible"
@@ -34,6 +36,7 @@ export default function DetailsPane(props: detailsPaneProps) {
 
   async function closeDetailsPane(){
     if(props.isDetailsPaneOpen){
+      document.querySelector("body")!.style.overflowY = "scroll";
       props.setIsDetailsPaneOpen(false);
       setDetailsPaneStyles({
         transform: "translateX(100%)"
@@ -79,6 +82,7 @@ export default function DetailsPane(props: detailsPaneProps) {
       ></div>
       <div id="detailsPane" style={detailsPaneStyles}>
         <button id="detailsPaneClose" onClick={closeDetailsPane}></button>
+        <img src={props.img} alt="Service Image" />
         <h2 id="detailsPaneName">{props.name}</h2>
         <p id="detailsPaneDescription">{props.desc}</p>
         <button

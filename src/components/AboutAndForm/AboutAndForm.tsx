@@ -45,6 +45,9 @@ useEffect(()=>{
             <label htmlFor="email"><span>*</span> Email Address</label>
             <input required type="email" name="email" id="emailInput" />
 
+            <label htmlFor="email"><span>*</span> Address</label>
+            <input required type="text" name="address" id="addressInput" />
+
             <label htmlFor="details">Details</label>
             <textarea maxLength={1000} name="details" id="detailsInput"></textarea>
 

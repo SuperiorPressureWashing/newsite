@@ -10,6 +10,7 @@ export default function Services() {
 
   const [currentServiceName, setCurrentServiceName] = useState("");
   const [currentServiceDesc, setCurrentServiceDesc] = useState("");
+  const [currentImg, setCurrentImg] = useState("");
   const [isDetailsPaneOpen, setIsDetailsPaneOpen] = useState(false);
 
   const wrapperRef: any = useRef();
@@ -18,6 +19,7 @@ export default function Services() {
     return (<Service
             key={i}
             {...data}
+            setCurrentImg={setCurrentImg}
             setCurrentServiceName={setCurrentServiceName}
             setCurrentServiceDesc={setCurrentServiceDesc}
             setIsDetailsPaneOpen={setIsDetailsPaneOpen}
@@ -65,6 +67,7 @@ export default function Services() {
         {serviceElems}
     </div>
     <DetailsPane
+    img={currentImg}
     name={currentServiceName}
     desc={currentServiceDesc}
     setIsDetailsPaneOpen={setIsDetailsPaneOpen}

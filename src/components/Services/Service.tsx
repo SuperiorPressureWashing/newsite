@@ -5,6 +5,7 @@ interface servicePropTypes{
     img: string
     setCurrentServiceName: any,
     setCurrentServiceDesc: any
+    setCurrentImg: any
     setIsDetailsPaneOpen: any
 }
 export default function Service(props: servicePropTypes) {
@@ -16,6 +17,7 @@ const clickOrTap = (window.matchMedia("(max-width: 990px)").matches) ? "Tap" : "
 function triggerDetailsPane(){
   props.setCurrentServiceDesc(props.desc)
   props.setCurrentServiceName(props.name)
+  props.setCurrentImg(props.img)
   props.setIsDetailsPaneOpen(true)
 }
 
