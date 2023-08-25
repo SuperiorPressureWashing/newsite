@@ -26,7 +26,7 @@ export default function Header() {
         </div>
         <ReactPlayer
         muted={true}
-        url={"./vid/main-bg.mp4"}
+        url={"./vid/main-bg.mov"}
         playing={true}
         loop={true}
         style={{
