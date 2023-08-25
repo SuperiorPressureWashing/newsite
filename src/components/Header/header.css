@@ -7,7 +7,7 @@ div:has(video){
 header{
     position: relative;
     min-height: 80vh;
-    background-image: url("/img/mainbg.jpeg");
+    background-image: url("/img/main-bg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

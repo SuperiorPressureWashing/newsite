@@ -8,7 +8,7 @@ interface Service{
 const serviceData: Service[] = [
     
     {
-        img: "./img/services/house-washing.jpg",
+        img: "./img/services/house-washing.JPG",
         name: "House Washing",
         shortDesc: "Every house or building should be cleaned one to two times a year from mold, mildew and algae. These organic growths will cause serious damages if left untreated. ",
         desc: `Every house or building should be cleaned one to two times a year from mold, mildew and algae. These organic growths will cause serious damages if left untreated. 
@@ -20,7 +20,7 @@ const serviceData: Service[] = [
 
 
     {
-        img: "./img/services/roof-wash.jpg",
+        img: "./img/services/roof-wash.JPG",
         name: "Roof Washing",
         shortDesc: "Asphalt shingle roofs need to be washed because a type of algae know as “Gloeocapsa magma” develops on the roofing system. ",
         desc: `Asphalt shingle roofs need to be washed because a type of algae know as “Gloeocapsa magma” develops on the roofing system. This type of algae feeds on limestone filler found in asphalt shingles. Many other organisms can develop as a result of this algae bacteria, such as moss, lichen, mold, and mildew. These organic growths will cause damages to your roof, depreciate value, decrease curb appeal, and shorten the life of your roof. 
@@ -31,7 +31,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/concrete-cleaning.jpg",
+        img: "./img/services/concrete-cleaning.JPG",
         name: "Concrete Washing",
         shortDesc: "Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet.",
         desc: `Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet. Concrete is also a porous surface which absorbs liquid matter, and leaves stains in it. Grease, oil, rust, red clay are main examples of stains found in concrete. 
@@ -43,7 +43,7 @@ const serviceData: Service[] = [
 
 
     {
-        img: "./img/services/fence-cleaning.jpg",
+        img: "./img/services/fence-cleaning.JPG",
         name: "Deck / Fence Cleaning",
         shortDesc: "Over time wood becomes weathered, warped, sagging, and unsafe. Wood must be properly sealed with stain, paint, or sealer to prevent damages from the elements. ",
         desc: `Wooden surfaces must be properly cleaned and maintained to sustain the life of your investment. Over time wood becomes weathered, warped, sagging, and unsafe. Wood must be properly sealed with stain, paint, or sealer to prevent damages from the elements. 
@@ -53,7 +53,7 @@ const serviceData: Service[] = [
         Painted wood is always soft washed to protect the paint on the surface. Extra precautions must be taken when a surface has been sealed or stained, as some solutions will strip the wood of the sealer. `
     },
     {
-        img: "./img/services/window-cleaning.jpg",
+        img: "./img/services/window-cleaning.JPG",
         name: "Window Cleaning",
         shortDesc: "Window cleaning is a great way to make your property shine! It is also a great add on for a house wash service. ",
         desc: `Window cleaning is a great way to make your property shine! It is also a great add on for a house wash service. 
@@ -64,7 +64,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/gutter-cleaning.jpg",
+        img: "./img/services/gutter-cleaning.JPG",
         name: "Gutter Cleaning",
         shortDesc: "Gutters should be cleaned at least once a year. Leaves, pine straw, and dirt collects in the gutter, restricting water flow, creating a habitat for insects, and creates extra weight on your fascia board. ",
         desc: `Gutters should be cleaned at least once a year. Leaves, pine straw, and dirt collects in the gutter, restricting water flow, creating a habitat for insects, and creates extra weight on your fascia board. 
@@ -75,7 +75,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/gutter-brightning.jpg",
+        img: "./img/services/gutter-brightning.JPG",
         name: "Gutter Brightening",
         shortDesc: "Overtime gutters develop black stains or streaks, making the appearance dark and dull. This happens from rainwater running down an asphalt shingle roof. The asphalt soaks into the metal leaving these dark stains or streaks.",
         desc: `Overtime gutters develop black stains or streaks, making the appearance dark and dull. This happens from rainwater running down an asphalt shingle roof. The asphalt soaks into the metal leaving these dark stains or streaks. 
@@ -86,7 +86,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/graffiti-cleaning.jpg",
+        img: "./img/services/graffiti-cleaning.JPG",
         name: "Graffiti Removal",
         shortDesc: "Is your property plagued with graffiti? We are able to remove painted graffiti from brick or concrete surfaces, without damaging anything!",
         desc: `Is your property plagued with graffiti? We are able to remove painted graffiti from brick or concrete surfaces, without damaging anything!
@@ -97,7 +97,7 @@ const serviceData: Service[] = [
     },
     
     {
-        img: "./img/services/commercial-building-wash.jpg",
+        img: "./img/services/commercial-building-wash.JPG",
         name: "Commercial Building Wash",
         shortDesc: "Pressure washing and soft washing services are a great way to keep your commercial property clean, safe, and appealing.",
         desc: `Pressure washing and soft washing services are a great way to keep your commercial property clean, safe, and appealing.
