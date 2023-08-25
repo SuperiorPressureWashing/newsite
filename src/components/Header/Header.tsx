@@ -27,6 +27,7 @@ export default function Header() {
         <ReactPlayer
         muted={true}
         url={"./vid/main-bg.mov"}
+        playsinline={true}
         playing={true}
         loop={true}
         style={{
