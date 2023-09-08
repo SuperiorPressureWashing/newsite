@@ -82,7 +82,7 @@ const serviceData: Service[] = [
 
         We apply a cleaning solution designed to remove this stain, making your gutters nice and bright! This is a job for a trained professional, because paint can actually be removed from the gutter itself if done incorrectly, or with the incorrect solutions.        
         
-        This will boost curb appeal, add value to your property. Gutter brightening stain removal id an excellent add on to your house or building wash!`
+        This will boost curb appeal, add value to your property. Gutter brightening stain removal is an excellent add on to your house or building wash!`
     },
 
     {
