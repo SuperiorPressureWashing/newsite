@@ -9,7 +9,7 @@
     #section1Text h2{
         color: var(--secondary-text-color);
         font-weight: 900;
-        font-size: 3.5vw;
+        font-size: 2.5vw;
         position: relative;
         display: inline-block;
         letter-spacing: 0.05em;
@@ -139,7 +139,7 @@
             font-size: 4vw;
         }
         #section1Text h2.who-title{
-            margin-top: 15vh;
+            margin-top: 4vh;
         }
 
         #section1Text p{
@@ -188,7 +188,7 @@
         width: 75%;
     }
         #section1Text h2{
-            font-size: 4vh;
+            font-size: 3vh;
             display: block;
             text-align: center;
         }

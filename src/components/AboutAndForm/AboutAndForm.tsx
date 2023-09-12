@@ -1,6 +1,7 @@
 import"./about_and_form.css"
 import MessageStatus from "./MessageStatus";
 import { useState, useEffect } from "react"
+import Gallery from "../Gallery/Gallery";
 
 export default function AboutAndForm() {
 
@@ -25,6 +26,7 @@ useEffect(()=>{
                 <img src="./img/trusted_icons/acworth.jpg" alt="City of Acworth Logo" className="trusted-icon"/>
               </a>
             </div>
+            <Gallery />
             <h2 className="who-title">Who we are</h2>
             <p>We are a leader in the pressure washing industry. We are located in Adairsville Georgia. We believe in excellent work, and we are looking to establish new customer relationships through our work.
             </p>

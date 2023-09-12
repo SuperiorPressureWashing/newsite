@@ -14,7 +14,6 @@ export default function App() {
       <Header />
       <Reviews />
       <AboutAndForm />
-      <Gallery />
       <CommercialResidential />
       <Services />
       <Footer />
