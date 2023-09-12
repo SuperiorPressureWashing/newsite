@@ -51,7 +51,7 @@ export default function Services() {
       if(elemsToAnimate.length > 0){
         animateElems(elemsToAnimate)
       }
-    }, {threshold: 0.3});
+    }, {threshold: 0.15});
 
     ([...wrapperRef.current.children]).forEach((elem)=>{
       animObserver.observe(elem)

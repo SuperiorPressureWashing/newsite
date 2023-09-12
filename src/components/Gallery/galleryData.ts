@@ -8,10 +8,10 @@ const galleryData: galleryType[] = [
         src: "./img/gallery/img1.jpg",
         title: "Before and After Photo"
     },
-    {
-        src: "./img/gallery/img2.jpg",
-        title: "Before and After Photo"
-    },
+    // {
+    //     src: "./img/gallery/img2.jpg",
+    //     title: "Before and After Photo"
+    // },
     // {
     //     src: "./img/gallery/img4.jpg",
     //     title: "Before and After Photo"
