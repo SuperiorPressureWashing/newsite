@@ -148,7 +148,7 @@ if (n > 0) {
 
         We are able to clean siding, concrete sidewalks, breezeways, and stairs. Our detergents will kill organic build up, and pull up grease and oil stains. Most complexes can be thoroughly cleaned within a weeks time. 
         
-        We offer discounted rates for contracted services. Such as quarterly, semiannually, and annually. Fill out a form or contact us directly for more information.`},{img:"./img/services/concrete-cleaning.jpg",name:"Concrete Washing",shortDesc:"Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet.",desc:`Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet. Concrete is also a porous surface which absorbs liquid matter, and leaves stains in it. Grease, oil, rust, red clay are main examples of stains found in concrete. 
+        We offer discounted rates for contracted services. Such as quarterly, semiannually, and annually. Fill out a form or contact us directly for more information.`},{img:"./img/services/concrete-cleaning.JPG",name:"Concrete Washing",shortDesc:"Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet.",desc:`Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet. Concrete is also a porous surface which absorbs liquid matter, and leaves stains in it. Grease, oil, rust, red clay are main examples of stains found in concrete. 
 
         Our cleaning solution is applied to the concrete surface to kill all organic bacteria, and remove stains. 
         
