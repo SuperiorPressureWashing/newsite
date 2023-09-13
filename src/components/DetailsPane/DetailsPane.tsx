@@ -16,8 +16,10 @@ export default function DetailsPane(props: detailsPaneProps) {
   const [detailsPaneStyles, setDetailsPaneStyles] = useState({})
 
   const shaderRef: any = useRef()
+  const paneRef: any = useRef()
 
   function openDetailsPane(){
+    paneRef.current.scrollTo(0,0)
     document.querySelector("body")!.style.overflowY = "hidden";
     props.setIsDetailsPaneOpen(true);
       setWrapperStyles({
@@ -80,7 +82,7 @@ export default function DetailsPane(props: detailsPaneProps) {
       style={shaderStyles}
       onClick={closeDetailsPane}
       ></div>
-      <div id="detailsPane" style={detailsPaneStyles}>
+      <div id="detailsPane" style={detailsPaneStyles} ref={paneRef}>
         <button id="detailsPaneClose" onClick={closeDetailsPane}></button>
         <img src={props.img} alt="Service Image" />
         <h2 id="detailsPaneName">{props.name}</h2>
