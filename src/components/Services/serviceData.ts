@@ -61,7 +61,7 @@ const serviceData: Service[] = [
 
     {
         img: "./img/services/concrete-cleaning.JPG",
-        name: "Concrete Washing",
+        name: "Driveway Cleaning",
         shortDesc: "Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet.",
         desc: `Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet. Concrete is also a porous surface which absorbs liquid matter, and leaves stains in it. Grease, oil, rust, red clay are main examples of stains found in concrete. 
 

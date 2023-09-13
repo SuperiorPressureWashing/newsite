@@ -17,7 +17,7 @@ export default function Gallery() {
 
   return (
     <div id="galleryWrapper">
-        <h1>Some of our work</h1>
+        <h1>Our work</h1>
         <Carousel
         showDots={true}
         responsive={responsive}
