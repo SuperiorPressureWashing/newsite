@@ -38,7 +38,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/roof.JPG",
+        img: "./img/services/roof.jpg",
         name: "Roof Washing",
         shortDesc: "Asphalt shingle roofs need to be washed because a type of algae know as “Gloeocapsa magma” develops on the roofing system. ",
         desc: `Asphalt shingle roofs need to be washed because a type of algae know as “Gloeocapsa magma” develops on the roofing system. This type of algae feeds on limestone filler found in asphalt shingles. Many other organisms can develop as a result of this algae bacteria, such as moss, lichen, mold, and mildew. These organic growths will cause damages to your roof, depreciate value, decrease curb appeal, and shorten the life of your roof. 
@@ -49,7 +49,7 @@ const serviceData: Service[] = [
     },
     
     {
-        img: "./img/services/apartment.JPG",
+        img: "./img/services/apartment.jpg",
         name: "Apartment Complex",
         shortDesc: "Maintaining your property is simplified with us. We will get your exterior cleaning project done fast, efficient, and most importantly safely.",
         desc: `Maintaining your property is simplified with us. We will get your exterior cleaning project done fast, efficient, and most importantly safely. We formulate a plan to get your property clean in a timely manner, and that is comfortable for your residents. 
@@ -60,7 +60,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/concrete-cleaning.JPG",
+        img: "./img/services/concrete-cleaning.jpg",
         name: "Concrete Washing",
         shortDesc: "Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet.",
         desc: `Mold, mildew, and algae develops on concrete surfaces. This makes concrete have a dark appearance, and makes the surface slick when wet. Concrete is also a porous surface which absorbs liquid matter, and leaves stains in it. Grease, oil, rust, red clay are main examples of stains found in concrete. 
@@ -71,7 +71,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/dumpster.JPG",
+        img: "./img/services/dumpster.jpg",
         name: "Dumpster Pad",
         shortDesc: "Dumpster pads are a trap for grease and grime. These left unclean impose a slip and fall hazard for employees. We utilize degreasers and detergents to remove grease, oil, bacteria, and organic matter.",
         desc: `Dumpster pads are a trap for grease and grime. These left unclean impose a slip and fall hazard for employees. We utilize degreasers and detergents to remove grease, oil, bacteria, and organic matter. 
@@ -82,7 +82,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/deck.JPG",
+        img: "./img/services/deck.jpg",
         name: "Deck Cleaning",
         shortDesc: "Over time wood becomes weathered, warped, sagging, and unsafe. Wood must be properly sealed with stain, paint, or sealer to prevent damages from the elements. ",
         desc: `Wooden surfaces must be properly cleaned and maintained to sustain the life of your investment. Over time wood becomes weathered, warped, sagging, and unsafe. Wood must be properly sealed with stain, paint, or sealer to prevent damages from the elements. 
@@ -93,7 +93,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/sanitation.JPG",
+        img: "./img/services/sanitation.jpg",
         name: "Sanitation",
         shortDesc: "We utilize our soft wash system to sanitize buildings, hospitals, schools, playgrounds, etc. Our sanitation process is fast, rapid, and can sanitize expanse areas quickly.",
         desc: `We utilize our soft wash system to sanitize buildings, hospitals, schools, playgrounds, etc. Our sanitation process is fast, rapid, and can sanitize expanse areas quickly. Our detergents will kill bacteria, viruses, and organic matter. 
@@ -113,7 +113,7 @@ const serviceData: Service[] = [
     },
 
     {
-        img: "./img/services/stain-removal.JPG",
+        img: "./img/services/stain-removal.jpg",
         name: "Stain Removal",
         shortDesc: "Red clay, rust, grease, and oil are the most common types of stains that people come across. These can appear on concrete, siding, and many other surface types.",
         desc: `Red clay, rust, grease, and oil are the most common types of stains that people come across. These can appear on concrete, siding, and many other surface types. 
