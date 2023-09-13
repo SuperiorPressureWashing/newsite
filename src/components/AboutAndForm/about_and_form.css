@@ -1,6 +1,7 @@
 #section1{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #section1Text{
     display: inline-block;
@@ -34,10 +35,10 @@
         background-color: #DFDFDF;
     }
     #section1Text p{
-        width: 80%;
+        width: 120%;
         font-size: 1.2vw;
         letter-spacing: 0.01em;
-        padding-left: 2%;
+        padding-left: 0;
         line-height: 1.8em;
         color: var(--secondary-text-color)
     }
@@ -60,6 +61,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 25%;
+    max-height: 50vw;
     background-color: var(--main-color);
     color: var(--secondary-text-color);
     padding: 3vh 1.5vw 4vh 1.5vw;
@@ -161,6 +163,7 @@
     
     #estimateForm{
         width: 35%;
+        max-height: 80vw;
     }
         #estimateForm h3{
             font-size: 3vw;
@@ -229,6 +232,7 @@
         display: inline-block;
         width: 70%;
         padding: 1vh 0 1.5vh 0;
+        max-height: 150vw;
     }
         #estimateForm h3{
             margin: 1vh 0;
