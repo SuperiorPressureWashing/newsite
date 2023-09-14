@@ -59,6 +59,7 @@
 #estimateForm{
     display: inline-flex;
     align-items: center;
+    position: relative;
     flex-wrap: wrap;
     width: 25%;
     max-height: 50vw;
@@ -66,6 +67,16 @@
     color: var(--secondary-text-color);
     padding: 3vh 1.5vw 4vh 1.5vw;
 }
+    #estimateForm::after{
+        content: "We are fully licensed and insured with general liability, and worker’s compensation insurance.";
+        display: inline-block;
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 102%;
+        text-align: center;
+        font-weight: bold;
+    }
     #estimateForm h3{
         text-align: center;
         margin: 3vh 0;
@@ -165,6 +176,12 @@
         width: 35%;
         max-height: 80vw;
     }
+    #estimateForm::after{
+        width: 90%;
+        font-size: 1.5vw;
+        left: 5%;
+        top: 102%;
+    }
         #estimateForm h3{
             font-size: 3vw;
         }
@@ -233,6 +250,12 @@
         width: 70%;
         padding: 1vh 0 1.5vh 0;
         max-height: 150vw;
+    }
+    #estimateForm::after{
+        width: 100%;
+        font-size: 1.2vh;
+        left: 0%;
+        top: 102%;
     }
         #estimateForm h3{
             margin: 1vh 0;

@@ -1,6 +1,6 @@
 #reviewsWrapper{
     min-height: 20vh;
-    margin: 2vw 0;
+    margin: 0 0 2vw 0;
 }
 
 .react-multi-carousel-list{
@@ -20,6 +20,14 @@
     color: var(--secondary-text-color);
     user-select: none;
     overflow-y: auto;
+}
+
+.review-title{
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin: 2vw 0 1vw 0;
 }
 
     .review .name{
@@ -65,10 +73,39 @@
         font-weight: bold;
     }
 
+.review-howmany{
+    color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2vw;
+    margin: 1vw 0 2vw 0;
+}
+.review-howmany span{
+    font-size: 3vw;
+    font-style: italic;
+}
+
+.review-howmany a{
+    display: inline-block;
+    background-image: url("/img/google.svg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 3vw;
+    width: 3vw;
+    margin-left: 1vw;
+}
+
     /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
+    .review-title{
+        font-size: 3.5vw;
+        margin: 3vw 0 2vw 0;
+    }
     #reviewsWrapper{
-        margin: 4vw 0;
+        margin-bottom: 4vw;
     }
     
     .review{
@@ -91,12 +128,29 @@
         #reviewLink a{
             font-size: 1.8vw;
         }
+.review-howmany{
+    font-size: 3vw;
+    margin: 2vw 0 3vw 0;
+}
+.review-howmany span{
+    font-size: 4vw;
+}
+
+.review-howmany a{
+    height: 4vw;
+    width: 4vw;
+    margin-left: 2vw;
+}
 }
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+    .review-title{
+        font-size: 2.2vh;
+        margin: 2vh 0 1vh 0;
+    }
     #reviewsWrapper{
-        margin: 2vh 0;
+        margin-bottom: 2vh;
     }
     
     .review{
@@ -118,4 +172,17 @@
         #reviewLink a{
             font-size: 1.5vh;
         }
+.review-howmany{
+    font-size: 2vh;
+    margin: 3vh 0 4vh 0;
+}
+.review-howmany span{
+    font-size: 3vh;
+}
+
+.review-howmany a{
+    height: 3vh;
+    width: 3vh;
+    margin-left: 1vh;
+}
 }

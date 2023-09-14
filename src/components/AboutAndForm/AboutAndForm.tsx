@@ -28,12 +28,12 @@ useEffect(()=>{
             </div>
             <Gallery />
             <h2 className="who-title">What Sets Us Apart From The Rest?</h2>
-            <p>We are not just another company who just wants another job from you. We are a family with our clients! Our goal is establish long lasting relationships with our clients versus just a quick buck. There are many clients that trust us year in and year out to keep their properties maintained. This is because they have had bad experiences with diverse “pressure washing companies”. Whether it was someone attempting to start a side hustle that was inexperienced, or a company that could not deliver professional results.
+            <p>We are not just another company who just wants another job from you. We are a family with our clients! Our goal is establish long lasting relationships with our clients versus just a quick buck. There are many clients that trust us year in and year out to keep their properties maintained.
             </p>
         </div>
 
         <div className="x-seperator"></div>
-
+      
         <form action="https://formsubmit.co/superiorpressurewashing111@gmail.com" id="estimateForm" method="POST">
 
             <h3 id="formTitle">Get a <em>Free</em> estimate!</h3>
@@ -57,6 +57,7 @@ useEffect(()=>{
 
             <input type="submit" value="Request Estimate" title="Request Estimate" />
         </form>
+        
     </section>
     </>
   )
