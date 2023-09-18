@@ -180,6 +180,11 @@
     font-size: 3vh;
 }
 
+.react-multi-carousel-item{
+display: flex;
+justify-content: center;
+}
+
 .review-howmany a{
     height: 3vh;
     width: 3vh;
