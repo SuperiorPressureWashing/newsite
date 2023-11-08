@@ -7,6 +7,10 @@
     background-color: var(--main-background-color);
 }
 
+#mobileLogo{
+    display: none;
+}
+
 #mainLogo{
     height: 80%;
     position: absolute;
@@ -122,10 +126,19 @@
         color: var(--third-text-color);
         margin: 1.5vh 2vh;
     }
-    
-    #facebookIcon{
+    #mobileLogo{
+        display: inline-block;
         right: 5vw;
         height: 90%;
+        position: absolute;
+        aspect-ratio: 1/1;
+        background-image: url("/img/superiorpressurewashing-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    #facebookIcon{
+        display: none;
     }
     #hamburgerMenu{
         display: inline-block;

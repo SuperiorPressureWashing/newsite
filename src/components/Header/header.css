@@ -39,7 +39,7 @@ header .phone-icon{
 }
 
 #headerContent{
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 header h1{
@@ -59,7 +59,7 @@ header h3{
     margin-top: 5vh;
     margin-left: 30vw;
     display: inline-block;
-    padding: 0.5vw 2vw;
+    padding: 1vw 2vw;
     background-color: var(--main-color);
     color: var(--secondary-text-color);
     font-weight: bold;

@@ -45,12 +45,7 @@ const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
     <nav id="mainNav" className="center">
         <div id="navContent" className="center">
 
-          <button
-          onClick={toggleNav}
-          id="hamburgerMenu"
-          className="mobile"
-          ref={hamburgerMenuRef}
-          ></button>
+          
 
           <div id="mainLogo"></div>
           
@@ -64,7 +59,13 @@ const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
           </div>
 
         </div>
-
+        <button
+          onClick={toggleNav}
+          id="hamburgerMenu"
+          className="mobile"
+          ref={hamburgerMenuRef}
+          ></button>
+          <div id="mobileLogo"></div>
         <a id="facebookIcon" target="_blank" href="https://www.facebook.com/people/Superior-Pressure-Washing-LLC/100087068977228/">
           <img src="./img/facebook_icon.svg" alt="Facebook Icon" />
         </a>
