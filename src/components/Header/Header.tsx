@@ -30,6 +30,7 @@ export default function Header() {
         playsinline={true}
         playing={true}
         loop={true}
+        controls={false}
         style={{
           position: "absolute",
           left: 0,

@@ -1,6 +1,22 @@
+#reviewsContainer{
+    position: relative;
+}
+
 #reviewsWrapper{
     min-height: 20vh;
     margin: 0 0 2vw 0;
+}
+
+#reviewsStyle{
+    position: absolute;
+    width: 100%;
+    height: 10vw;
+    background-color: var(--main-color);
+    top:-5vw;
+    left: 0;
+    z-index: -1;
+    clip-path: ellipse(50% 40% at 50% 50%);
+    opacity: 30%;
 }
 
 .react-multi-carousel-list{
@@ -27,7 +43,7 @@
     color: var(--secondary-text-color);
     font-weight: bold;
     font-size: 2.5vw;
-    margin: 2vw 0 1vw 0;
+    padding: 4vw 0 1vw 0;
 }
 
     .review .name{
@@ -81,6 +97,9 @@
     font-weight: bold;
     font-size: 2vw;
     margin: 1vw 0 2vw 0;
+    background-color: #acd9f0;
+    padding: 1vw 0;
+    box-shadow: 0px 8px 8px rgba(0,0,0,0.3);
 }
 .review-howmany span{
     font-size: 3vw;
@@ -102,7 +121,11 @@
 @media only screen and (min-width: 650px) and (max-width: 990px){
     .review-title{
         font-size: 3.5vw;
-        margin: 3vw 0 2vw 0;
+        padding: 5vw 0 2vw 0;
+    }
+    #reviewsStyle{
+        height: 12vw;
+        top: -6vw;
     }
     #reviewsWrapper{
         margin-bottom: 4vw;
@@ -145,9 +168,13 @@
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+    #reviewsStyle{
+        height: 20vw;
+        top: -10vw;
+    }
     .review-title{
         font-size: 2.2vh;
-        margin: 2vh 0 1vh 0;
+        padding: 4vh 0 1vh 0;
     }
     #reviewsWrapper{
         margin-bottom: 2vh;
@@ -175,6 +202,7 @@
 .review-howmany{
     font-size: 2vh;
     margin: 3vh 0 4vh 0;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
 }
 .review-howmany span{
     font-size: 3vh;
@@ -189,5 +217,6 @@ justify-content: center;
     height: 3vh;
     width: 3vh;
     margin-left: 1vh;
+    
 }
 }

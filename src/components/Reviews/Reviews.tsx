@@ -29,7 +29,10 @@ export default function Reviews() {
 
 
   return (
-  <>
+  <div id="reviewsContainer">
+
+    <div id="reviewsStyle"></div>
+
     <h2 className="review-title">What People Are Saying About Us</h2>
     <div id="reviewsWrapper">
           <Carousel
@@ -46,7 +49,7 @@ export default function Reviews() {
           </div>
           <div className="review-howmany"><span>45+</span>&nbsp;5 star reviews! <a href="https://g.co/kgs/1o2kZB" target="_blank" title="Google Business"></a></div>
       </div>
-  </>
+      </div>
     
   )
 }

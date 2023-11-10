@@ -6,6 +6,7 @@ import CommercialResidential from "./components/CommercialResidential/Commercial
 import Services from "./components/Services/Services"
 import Gallery from "./components/Gallery/Gallery"
 import Footer from "./components/Footer/Footer"
+import ServiceArea from "./components/ServiceArea/ServiceArea"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <AboutAndForm />
       <CommercialResidential />
       <Services />
+      <ServiceArea />
       <Footer />
     </>
   )
