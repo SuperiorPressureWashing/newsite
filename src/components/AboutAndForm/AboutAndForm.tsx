@@ -28,7 +28,7 @@ useEffect(()=>{
             </div>
             <Gallery />
             <h2 className="who-title">The Difference</h2>
-            <p>We are not just another company who just wants another job from you. We are a family with our clients! Our goal is establish long lasting relationships with our clients versus just a quick buck. There are many clients that trust us year in and year out to keep their properties maintained.
+            <p>We are a professional soft wash, and pressure washing company that puts you first. We treat all of our customers as our own family. We strive to make sure you have a superior experience from start to finish. We educate all of our customers with each service that is requested, so that you can stay in the loop! 
             </p>
         </div>
 

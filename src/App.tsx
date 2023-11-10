@@ -7,6 +7,7 @@ import Services from "./components/Services/Services"
 import Gallery from "./components/Gallery/Gallery"
 import Footer from "./components/Footer/Footer"
 import ServiceArea from "./components/ServiceArea/ServiceArea"
+import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Reviews />
       <AboutAndForm />
       <CommercialResidential />
+      <WhyChooseUs />
       <Services />
       <ServiceArea />
       <Footer />

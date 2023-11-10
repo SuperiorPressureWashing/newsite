@@ -44,7 +44,7 @@ export default function Reviews() {
           >
               {reviewElems}
           </Carousel>
-          <div  id="reviewLink">
+          <div id="reviewLink">
           <a target="_blank" href="https://goo.gl/maps/XAsnvw8bCVJYksbMA">Leave a review!</a>
           </div>
           <div className="review-howmany"><span>58+</span>&nbsp;5 star reviews! <a href="https://g.co/kgs/1o2kZB" target="_blank" title="Google Business"></a></div>
