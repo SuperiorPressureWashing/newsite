@@ -1,5 +1,5 @@
 import "./servicearea.css"
-import Area from "./Area.tsx"
+import Area from "./Area"
 import areaData from "./areaData"
 
 export default function ServiceArea() {
